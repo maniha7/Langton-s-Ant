@@ -114,7 +114,6 @@ class Ant():
                 self.RANDTURNS[i] = "RIGHT"
             else:
                 self.RANDTURNS[i] = "LEFT"
-        print(self.RANDTURNS)
     
         for x in range(MAXCOLORS):
             color = [0, 0, 0]
